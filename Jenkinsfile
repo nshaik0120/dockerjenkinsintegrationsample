@@ -1,8 +1,7 @@
 pipeline {
     agent any 
     tools {
-        maven "3.8.4"
-    
+        maven "3.8.4"  
     }
     stages {
         stage('Compile and Clean') { 
@@ -36,7 +35,7 @@ pipeline {
         }
         stage('Docker Push'){
             steps {
-                sh 'docker push anvbhaskar/docker_jenkins_springboot:${BUILD_NUMBER}'
+                sh 'docker push nshaik0120/docker_jenkins_springboot:${BUILD_NUMBER}'
             }
         }
         stage('Docker deploy'){
