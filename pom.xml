@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.techie</groupId>
 	<artifactId>dockerjenkinsintegrationsample</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>dockerjenkinsintegrationsample</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
