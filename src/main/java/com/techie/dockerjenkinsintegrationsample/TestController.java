@@ -10,7 +10,13 @@ public class TestController {
 	@GetMapping("/jenkins")
 	public String test1() {
 		
-		return "welocme to docker jenkins in ec2";
+		return "welcome to docker jenkins in ec2";
+	}
+	
+	@GetMapping("/jenkins2")
+	public String test2() {
+		
+		return "welcome to docker jenkins2 in ec2";
 	}
 
 }
